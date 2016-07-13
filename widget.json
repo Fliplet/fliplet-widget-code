@@ -1,0 +1,27 @@
+{
+  "name": "Custom code",
+  "package": "code-editor",
+  "version": "1.0.0",
+  "icon": "img/icon.png",
+  "interface": {
+    "dependencies": [
+      "fliplet-core:1.0",
+      "jquery"
+    ],
+    "assets": [
+      "js/ace/ace.js",
+      "js/ace/theme-chrome.js",
+      "js/ace/mode-css.js",
+      "js/ace/mode-html.js",
+      "js/ace/mode-javascript.js",
+      "js/ace/worker-css.js",
+      "js/ace/worker-html.js",
+      "js/ace/worker-javascript.js",
+      "js/interface.js"
+    ]
+  },
+  "build": {
+    "dependencies": [],
+    "assets": []
+  }
+}
